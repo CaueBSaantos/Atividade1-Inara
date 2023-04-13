@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+    grid-template-rows: 70px 1fr 70px;
+    grid-template-columns: 280px 1fr;
+   
+}
+
+header{
+    grid-area: header;
+    background-color: red;
+    ;
+   
+}
+
+aside{
+    grid-area: aside;
+    
+    background-color: green;
+}
+
+main{
+    grid-area: main;
+ 
+    background-color: aqua;
+}
+
+footer{
+    grid-area: footer;
+    background-color: blueviolet;
+}
+
+
+.login-page{
+    display: flex;
+    height: 30%;
+    border: solid 2px blue;
+    justify-content: space-evenly;
+}
+.nos{
+    display: flex;
+    width: 30%;
+    border: solid 3px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.games{
+    display: flex;
+    list-style-type: none;
+    border: solid paleturquoise;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    width: 8%;
+}
