@@ -19,49 +19,35 @@ body{
 header{
     grid-area: header;
     background-color: red;
-    ;
-   
+    display: flex;
+    justify-content: center;
+   align-items: center; 
+    border: solid black 3px;
+;   
 }
-
-aside{
-    grid-area: aside;
-    
-    background-color: green;
-}
-
-main{
-    grid-area: main;
- 
-    background-color: aqua;
-}
-
-footer{
-    grid-area: footer;
-    background-color: blueviolet;
-}
-
-
 .login-page{
     display: flex;
-    height: 30%;
-    border: solid 2px blue;
+    height: 50%;
+    border: solid 2px black;
     justify-content: space-evenly;
+    width: 100%
 }
-.nos{
+.login-conteiner{
     display: flex;
-    width: 30%;
+    width: 40%;
     border: solid 3px;
     align-items: center;
     justify-content: space-evenly;
 
 }
-.games{
+.games-conteiner{
     display: flex;
     list-style-type: none;
-    border: solid paleturquoise;
+    border: solid blue 3px;
     justify-content: flex-start;
     width: 100%;
     align-items: center;
+    justify-content: space-around;
 }
 
 li{
@@ -69,3 +55,68 @@ li{
     justify-content: space-between;
     width: 8%;
 }
+
+aside{
+    grid-area: aside;
+    display: flex;
+   justify-content: center;
+   align-items: center;   
+    background-color: green;
+    border: solid black 2px   
+}
+.ul-item{
+    display: flex;
+    border: solid black;
+    height: 90%;
+    width: 85%;
+    justify-content: center;
+}
+
+.itens{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+li{
+    display: flex;
+    width: auto;
+    
+}
+
+
+
+
+main{
+    grid-area: main;
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    border: solid black 2px;
+}
+
+.img{
+    width: 30%;
+    height: 30%;       
+}
+
+.conteiner-main{
+    display: flex;
+    flex-direction: column;
+    width: auto%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid black 2px;
+}
+
+footer{
+    grid-area: footer;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
