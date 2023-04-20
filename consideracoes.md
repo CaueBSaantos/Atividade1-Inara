@@ -9,3 +9,7 @@
 - Para mudar apenas uma parte é necessario usar classes. Até o momento apenas o header foi alterado
 
 -----------------------------------------------------------
+
+
+- feito o aside,main e footer
+- terminado a ativdade
