@@ -1,9 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
+    background-color: #bbef95;
+    cursor: default;
     margin: 0;
     height: 100vh;
     display: grid;
@@ -18,7 +21,7 @@ body{
 
 header{
     grid-area: header;
-    background-color: #dc9700;
+    background-color: #007cd1;
     display: flex;
     justify-content: center;
    align-items: center; 
@@ -65,7 +68,7 @@ aside{
     display: flex;
    justify-content: center;
    align-items: center;   
-    background-color: #d5d337;
+    background-color: #0096bb;
      
 }
 .ul-item{
@@ -82,6 +85,13 @@ aside{
     flex-direction: column;
     align-items: center;
     width: 40%;
+    border: solid black 1px;
+    
+}
+.itens :nth-child(n){
+    border: solid black 1px;
+    width: 50%;
+    justify-content: center;
 }
 li{
     display: flex;
@@ -95,14 +105,22 @@ li{
 main{
     grid-area: main;
     display: flex;
-    background-color: #c2fb82;;
+    background-color: #00bcaa;
     align-items: center;
     
 }
 
 .img{
     width: 30%;
-    height: 30%;       
+    height: 35%;  
+    border-radius: 30px;     
+}
+
+.text{
+    
+    height: auto;
+    width: 80%;
+    padding-left: 5%;
 }
 
 .conteiner-main{
@@ -116,11 +134,21 @@ main{
 }
 
 footer{
+    
     grid-area: footer;
-    background-color: #e24700;;
+    background-color: #60e0a1;
     display: flex;
     justify-content: flex-end;
     align-items:center;
 }
 
+footer :nth-child(1){
+    padding-right: 5%;
+}
+
+
+li:active {
+    border: 3px solid blue;
+    
+}
 
